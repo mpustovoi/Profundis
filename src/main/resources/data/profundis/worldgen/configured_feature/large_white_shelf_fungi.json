@@ -3,17 +3,13 @@
   "config": {
     "iterations": {
       "type": "minecraft:uniform",
-      "value": {
-        "max_inclusive": 7,
-        "min_inclusive": 3
-      }
+      "max_inclusive": 7,
+      "min_inclusive": 3
     },
     "radius": {
       "type": "minecraft:uniform",
-      "value": {
-        "max_inclusive": 10,
-        "min_inclusive": 4
-      }
+      "max_inclusive": 10,
+      "min_inclusive": 4
     },
     "underState": {
       "Name": "minecraft:mushroom_stem",

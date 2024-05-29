@@ -226,7 +226,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "profundis:generic/height_based_ore"
+                    "value": "profundis:generic/height_based_ore"
                 }
             ],
             "functions": [

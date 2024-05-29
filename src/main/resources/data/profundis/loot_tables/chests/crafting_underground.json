@@ -57,7 +57,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "profundis:generic/log_or_planks",
+                    "value": "profundis:generic/log_or_planks",
                     "functions": [
                         {
                             "function": "minecraft:set_count",

@@ -8,24 +8,18 @@
     "contained": false,
     "count": {
       "type": "minecraft:uniform",
-      "value": {
-        "max_inclusive": 90,
-        "min_inclusive": 30
-      }
+      "max_inclusive": 90,
+      "min_inclusive": 30
     },
     "height": {
       "type": "minecraft:biased_to_bottom",
-      "value": {
-        "max_inclusive": 10,
-        "min_inclusive": 5
-      }
+      "max_inclusive": 10,
+      "min_inclusive": 5
     },
     "radius": {
       "type": "minecraft:uniform",
-      "value": {
-        "max_inclusive": 12,
-        "min_inclusive": 5
-      }
+      "max_inclusive": 12,
+      "min_inclusive": 5
     },
     "sometimes_use_under_as_top": true,
     "top_state": {

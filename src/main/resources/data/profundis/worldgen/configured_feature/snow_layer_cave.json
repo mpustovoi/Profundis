@@ -3,10 +3,8 @@
   "config": {
     "amountOfCircles": {
       "type": "minecraft:uniform",
-      "value": {
-        "max_inclusive": 5,
-        "min_inclusive": 3
-      }
+      "max_inclusive": 5,
+      "min_inclusive": 3
     },
     "blockState": {
       "Name": "minecraft:snow",
@@ -21,10 +19,8 @@
     "onlyOnBaseStoneOverworld": true,
     "size": {
       "type": "minecraft:uniform",
-      "value": {
-        "max_inclusive": 16,
-        "min_inclusive": 6
-      }
+      "max_inclusive": 16,
+      "min_inclusive": 6
     },
     "targetBlock": {
       "predicate_type": "minecraft:block_match",
