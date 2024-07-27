@@ -10,6 +10,7 @@ import firenh.profundis.features.features.LargeOreFeature;
 import firenh.profundis.features.features.LavaFixerFeature;
 import firenh.profundis.features.features.NetherrackBaseFeature;
 import firenh.profundis.features.features.NotStupidDeltaFeature;
+import firenh.profundis.features.features.PaintedCavesLargeOreFeature;
 import firenh.profundis.features.features.ShelfFungiFeature;
 import firenh.profundis.features.features.TerracottaBandsLargeOreFeature;
 import firenh.profundis.features.features.config.AmethystVeinFeatureConfig;
@@ -42,6 +43,7 @@ public class ProfundisFeatures {
     public final static Feature<LargeOreFeatureConfig> LARGE_ORE_FEATURE;
     public final static Feature<LargeOreFeatureConfig> TERACOTTA_BANDS_LARGE_ORE_FEATURE;
     public final static Feature<DefaultFeatureConfig> FROZEN_WATER_FEATURE;
+    public final static Feature<LargeOreFeatureConfig> PAINTED_CAVES_LARGE_ORE_FEATURE;
 
     static {
         ICICLE_FEATURE = register("icicle", new IcicleFeature(IcicleFeatureConfig.CODEC));
@@ -55,6 +57,7 @@ public class ProfundisFeatures {
         LARGE_ORE_FEATURE = register("large_ore_feature", new LargeOreFeature(LargeOreFeatureConfig.CODEC)); 
         TERACOTTA_BANDS_LARGE_ORE_FEATURE = register("terracotta_bands_large_ore_feature", new TerracottaBandsLargeOreFeature(LargeOreFeatureConfig.CODEC));  
         FROZEN_WATER_FEATURE = register("frozen_water_feature", new FrozenWaterFeature(DefaultFeatureConfig.CODEC));
+        PAINTED_CAVES_LARGE_ORE_FEATURE = register("painted_caves_large_ore_feature", new PaintedCavesLargeOreFeature(LargeOreFeatureConfig.CODEC));
     }
 
     public static void init() {

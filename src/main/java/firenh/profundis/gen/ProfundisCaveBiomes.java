@@ -111,9 +111,9 @@ public class ProfundisCaveBiomes {
             DEFAULT_PARAMETER,
             DEFAULT_PARAMETER,
             ParameterRange.of(-0.2f, 0f),
-            ParameterRange.of(-1f, 0f),
+            ParameterRange.of(-1f, -0.5f),
             ALL_HEIGHT_RANGE,
-            ParameterRange.of(-1.0f, -0.85f),
+            ParameterRange.of(-1.0f, -0.9f),
             0.1f,
             ProfundisBiomeKeys.AMETHYST_CAVES
         ), 
@@ -128,16 +128,37 @@ public class ProfundisCaveBiomes {
             0.1f,
             ProfundisBiomeKeys.BLACK_CAVES
         ),
+        CaveBiome.of(
+            DEFAULT_PARAMETER,
+            DEFAULT_PARAMETER,
+            ParameterRange.of(-0.3f, 0f),
+            ParameterRange.of(-1f, 0f),
+            ALL_HEIGHT_RANGE,
+            ParameterRange.of(-1.0f, -0.8f),
+            0.1f,
+            ProfundisBiomeKeys.WHITE_CAVES
+        ),
 
         CaveBiome.of(
             ParameterRange.of(0.8f, 1.0f),
-            DEFAULT_PARAMETER,
+            ParameterRange.of(-1.0f, 0),
             DEFAULT_PARAMETER,
             DEFAULT_PARAMETER,
             HIGH_RANGE,
             ParameterRange.of(-1.0f, -0.5f),
             0f,
             ProfundisBiomeKeys.ARID_CAVES
+        ),
+
+        CaveBiome.of(
+            ParameterRange.of(0.35f, 0.8f),
+            ParameterRange.of(-0.25f, 1.0f),
+            DEFAULT_PARAMETER,
+            DEFAULT_PARAMETER,
+            HIGH_RANGE,
+            ParameterRange.of(-1.0f, -0.5f),
+            0f,
+            ProfundisBiomeKeys.PAINTED_CAVES
         ),
 
         CaveBiome.of(
@@ -150,6 +171,8 @@ public class ProfundisCaveBiomes {
             0.1f,
             ProfundisBiomeKeys.FLORAL_LUSH_CAVES
         )
+
+        
 
         // CaveBiome.of(
         //     DEFAULT_PARAMETER,

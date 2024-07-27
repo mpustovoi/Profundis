@@ -1,5 +1,5 @@
 {
-    "type": "profundis:terracotta_bands_large_ore_feature",
+    "type": "profundis:painted_caves_large_ore_feature",
     "config": {
         "radius": {
             "type": "minecraft:uniform",

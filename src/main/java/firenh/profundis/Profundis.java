@@ -19,12 +19,12 @@ import firenh.profundis.util.FOModVersion;
 public class Profundis implements ModInitializer {
 	public static final String MODID = "profundis";
 	public static final Logger LOGGER = LogManager.getLogger(MODID);
-	public static final FOModVersion VERSION = FOModVersion.fromString("1.5.2");
+	public static final FOModVersion VERSION = FOModVersion.fromString("1.7.0");
 
 	private static Config config;
 
 	public static Identifier id(String id) {
-		return new Identifier(MODID, id);
+		return Identifier.of(MODID, id);
 	}
 
 	@Override
@@ -44,6 +44,10 @@ public class Profundis implements ModInitializer {
 		}
 
 		return config;
+	}
+
+	public static void log(String info) {
+		LOGGER.info(info);
 	}
 
 	public static void loadConfigFromFile() {

@@ -6,10 +6,12 @@ import java.util.Optional;
 
 import com.mojang.serialization.Codec;
 
+import firenh.profundis.Profundis;
 import firenh.profundis.features.features.config.LargeOreFeatureConfig;
 import firenh.profundis.util.ProfundisTags;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.StructureWorldAccess;
@@ -37,7 +39,9 @@ public class TerracottaBandsLargeOreFeature extends LargeOreFeature {
 
     @Override
     protected Optional<BlockState> getBlockState(StructureWorldAccess world, BlockPos pos, BlockState currentState, Random random, List<OreFeatureConfig.Target> targets) {
-        if (currentState.isIn(ProfundisTags.BASE_STONE_OVERWORLD_PLUS)) {
+        
+        if (currentState.isIn(BlockTags.BASE_STONE_OVERWORLD)) {
+            // Profundis.log(getTerracotta(world, pos.getY()).getBlock().getName().toString());
             return Optional.of(getTerracotta(world, pos.getY()));
         }
 

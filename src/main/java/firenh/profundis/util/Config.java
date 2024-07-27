@@ -34,6 +34,8 @@ public class Config {
     public boolean generateAridCaves = true;
     public boolean generateFloralLushCaves = true;
     public boolean generateSparseLushCaves = true;
+    public boolean generateWhiteCaves = true;
+    public boolean generatePaintedCaves = true;
     public Debug debug = new Debug();
 
     // public Advanced advancedSettings = new Advanced();
