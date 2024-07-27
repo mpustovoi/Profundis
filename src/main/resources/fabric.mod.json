@@ -4,7 +4,7 @@
 	"version": "${version}",
   
 	"name": "Profundis",
-	"description": "A world generation mod adding in seven new underground biomes. This mod can work on the server without clients needing to download a mod!",
+	"description": "A world generation mod adding in nine new underground biomes. This mod can work on the server without clients needing to download a mod!",
 	"authors": [
 	  "FireNH"
 	],
@@ -29,7 +29,7 @@
 	"depends": {
 	  "fabricloader": ">=0.14.19",
 	  "fabric-api": "*",
-	  "minecraft": ">=1.20.6",
+	  "minecraft": ">=1.21",
 	  "java": ">=21"
 	},
 	"suggests": {
