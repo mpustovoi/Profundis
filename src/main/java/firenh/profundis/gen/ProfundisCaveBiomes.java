@@ -102,7 +102,7 @@ public class ProfundisCaveBiomes {
             ParameterRange.of(0.4f, 0.6f),
             DEFAULT_PARAMETER,
             ALL_HEIGHT_RANGE,
-            ParameterRange.of(0.65f, 1.0f),
+            ParameterRange.of(0.75f, 1.0f),
             0f,
             ProfundisBiomeKeys.MOLTEN_CAVES
         ),
@@ -122,7 +122,7 @@ public class ProfundisCaveBiomes {
             DEFAULT_PARAMETER,
             DEFAULT_PARAMETER,
             ParameterRange.of(-0.3f, 0f),
-            ParameterRange.of(-1f, 0f),
+            ParameterRange.of(0f, 1f),
             ALL_HEIGHT_RANGE,
             ParameterRange.of(0.8f, 1.0f),
             0.1f,
@@ -132,7 +132,7 @@ public class ProfundisCaveBiomes {
             DEFAULT_PARAMETER,
             DEFAULT_PARAMETER,
             ParameterRange.of(-0.3f, 0f),
-            ParameterRange.of(-1f, 0f),
+            ParameterRange.of(0f, 1f),
             ALL_HEIGHT_RANGE,
             ParameterRange.of(-1.0f, -0.8f),
             0.1f,
@@ -151,12 +151,12 @@ public class ProfundisCaveBiomes {
         ),
 
         CaveBiome.of(
-            ParameterRange.of(0.35f, 0.8f),
-            ParameterRange.of(-0.25f, 1.0f),
+            ParameterRange.of(0.8f, 1.0f),
+            ParameterRange.of(-1.0f, 0),
             DEFAULT_PARAMETER,
             DEFAULT_PARAMETER,
             HIGH_RANGE,
-            ParameterRange.of(-1.0f, -0.5f),
+            ParameterRange.of(0.5f, 1.0f),
             0f,
             ProfundisBiomeKeys.PAINTED_CAVES
         ),
